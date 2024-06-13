@@ -1,0 +1,209 @@
+html {
+    font-family: 'HvDTrial Brandon Text', sans-serif;
+    color: #3E4F5C;
+    width: 100%;
+}
+
+.nav img {
+    position: absolute;
+    width: 100%;
+    top: 0;   
+    left: 0;
+    height: auto;
+    z-index:-1;
+}
+
+.pages {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    max-width: 400px;
+    padding-left: 250px;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.pages li {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 11pt;
+}
+
+.pages li:hover {
+    color: #FFBD59;
+    text-decoration: underline;
+}
+
+.hero img {
+    width: 500px;
+    float: right;
+}
+
+.introduction {
+    width: 490px;
+    margin-left: 125px;
+    margin-top: 50px;
+    float: left;
+}
+
+.purpose {
+    background-color: #3E4F5C;
+}
+
+.purpose img {
+    width: 600px;
+    float: left;
+    vertical-align: top;
+}
+
+.content {
+    margin-top: 390px;
+    margin-left: 55%;
+    margin-right: 125px;
+    color: white;
+}
+
+.content #title {
+    padding-top: 60px;
+}
+
+.content #body {
+    padding-bottom: 60px;
+    color: #E5E7FF;
+}
+
+.features img {
+    width: 600px;
+    float: right;
+}
+
+#accent-left {
+    position: absolute;
+    left: 0px;
+    top: 954px;   
+    height: 20px;
+    width: 45%;
+    padding-bottom: 30px;
+    z-index:-1;
+}
+
+.key-features {
+    padding-top: 200px;
+    margin-left: 100px;
+    max-width: 400px;
+    margin-bottom: 89px;
+}
+
+.key-features h1 {
+    margin-left: 25px;
+}
+
+.process {
+    background-color: #3E4F5C;
+}
+
+.process img {
+    padding-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.how-it-works {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 125px;
+    margin-right: 150px;
+    color: #E5E7FF;
+}
+
+.details {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    list-style-type: none;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.details li {
+    width: 160px;
+}
+
+.benefits img {
+    width: 60%;
+}
+
+#benefits {
+    float: right;
+    max-width: 30%;
+    margin-right: 100px;
+    margin-top: 110px;
+}
+
+#benefits h1 {
+    margin-left: 25px;
+}
+
+#accent-right {
+    position: absolute;
+    width: 40%;
+    right: 0px;
+    top: 2107px;   
+    height: 20px;
+    padding-bottom: 30px;
+    z-index:-1;
+}
+
+#cta {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+#cta img {
+    width: 200px;
+    padding: 2px;
+}
+
+button {
+    background-color: #FFBD59;
+    border: none;
+    color: #3E4F5C;
+    padding: 20px;
+    font-family: 'HvDTrial Brandon Text', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #1DAC8B;
+    color: #E5E7FF;
+}
+
+.demo {
+    background-color: #5974FF;
+    border: none;
+    color: white;
+    padding: 20px;
+    font-family: 'HvDTrial Brandon Text', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+}
+
+footer img {
+    width: 100%;
+}
