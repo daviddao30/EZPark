@@ -186,6 +186,7 @@ button {
     font-weight: 700;
     font-style: normal;
     font-size: 15px;
+    border-radius: 10px;
 }
 
 button:hover {
